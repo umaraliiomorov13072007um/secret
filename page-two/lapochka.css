@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(rgb(43, 43, 43),#222222);
+}
+.container{
+    border: 2px solid white;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgb(43, 43, 43),#222222);
+    height: 98vh;
+    margin: 0;
+    border-radius: 10px;
+    position: relative;
+    color: white;
+    padding: 50px;
+}
+.container h1{
+    font-size: 50px;
+}
+
+.container p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+@media(max-width: 850px){
+    .container{
+        height: 130vh;
+    }
+}
+@media(max-width: 580px){
+    .container{
+        height: 150vh;
+    }
+}
